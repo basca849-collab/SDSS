@@ -1,0 +1,62 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build artifacts
+dist/
+build/
+.cache/
+
+# Firebase
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Environment variables / Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# Temporary / Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+temp/
+tmp/
+temp_*.js
+*.txt
+!logo_base64.txt
+!slider_base64.txt
+
+# Backup files
+*.bak
+*.swp
+
+# SDSS Specific Ignore
+vercel_deployment/
+SDSS/
+backend/
+frontend/
+repair_sdss.js
+fix_base64.py
+encode_sliders.py
+inject_media.py
