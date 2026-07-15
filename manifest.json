@@ -1,0 +1,21 @@
+{
+  "name": "SDSS Master Admin",
+  "short_name": "SDSS Admin",
+  "description": "Suvarna Durga Seva Samiti Administrative Portal",
+  "start_url": "./admin.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#8B0000",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1631464312836-932e650db217?auto=format&fit=crop&q=80&w=192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1631464312836-932e650db217?auto=format&fit=crop&q=80&w=512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
